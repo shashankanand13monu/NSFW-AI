@@ -40,7 +40,7 @@ if app_mode== 'About App':
     st.write("My Portfolio [link](https://shashankanand13mon.wixsite.com/portfolio)")
     
 elif app_mode == 'Run Tests':
-
+# Try & Except Fix
     try :
         
         img_file_buffer = st.file_uploader("Upload an Image", type=["jpg","jpeg", "png"])
