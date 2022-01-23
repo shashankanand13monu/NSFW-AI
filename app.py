@@ -110,6 +110,7 @@ elif app_mode == 'Run Tests':
         for idx, filteredImage in enumerate(filteredImages):
             next(cols).image(filteredImage, width=150)
 # ---------------------------------------------------------------------
+# Optional
 elif app_mode== 'Show Code':
     
     agree = st.checkbox('Show Full Training Code')
