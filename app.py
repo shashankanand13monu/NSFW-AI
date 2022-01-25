@@ -29,7 +29,7 @@ app_mode= st.selectbox('Choose the App Mode',
                                ['About App','Run Tests','Show Code'])
 
 st.markdown ('---------' )
-# ---------------------------------------------------------------------
+# -------------------------------------------------------------------
 
 if app_mode== 'About App':
     text= '''App Model Made with **Tensorflow** & **Keras** using **Convolutional Neural Networks. 
