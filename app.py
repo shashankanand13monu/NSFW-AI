@@ -24,7 +24,7 @@ def predict(imag):
     predicted_class = CLASS_NAMES[np.argmax(predictions[0])]
     confidence = round(100 * (np.max(predictions[0])), 2)
     return predicted_class, confidence
-# ---------------------------------------------------------------------
+# -------------------------------------------------------------------
 app_mode= st.selectbox('Choose the App Mode',
                                ['About App','Run Tests','Show Code'])
 
