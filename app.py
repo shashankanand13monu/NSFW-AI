@@ -3,7 +3,7 @@ from PIL import Image,ImageOps, ImageFilter
 import tensorflow as tf
 import streamlit as st
 from itertools import cycle
-# ---------------------------------------------------------------------
+# --------------------------------------------------------------------
 st.set_page_config(
     page_title="NSFW-AI",
     page_icon="🤖",
