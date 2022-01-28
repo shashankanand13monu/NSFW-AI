@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded")
-# ---------------------------------------------------------------------
+# --------------------------------------------------------------------
 st.title('NSFW-AI')
 MODEL= tf.keras.models.load_model("./nsfw_AI.h5")
 CLASS_NAMES =["Normal","Semi_Nude"]
